@@ -1,6 +1,6 @@
 <template>
   <div class="VueToNuxtLogo">
-<img :src="'/path/to/images/logo-full-4-4.svg'" alt="Рой crew - логотип"/>
+    <img :src="'/path/to/images/logo-full-4-4.svg'" alt="Рой crew - логотип"/>
   </div>
 </template>
 
