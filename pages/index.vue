@@ -25,8 +25,13 @@
 </template>
 
 <script>
+
+import AppLogo from '~/components/AppLogo.vue'
+
+
     export default {
-        async asyncData({ app }) {
+
+      async asyncData({ app }) {
             const { articles } = await app.$axios.$get(
                 `https://newsapi.org/v2/top-headlines?sources=cnn&apiKey=${
                     process.env.API_KEY
@@ -35,5 +40,8 @@
 
             return { articles };
         },
+        components: {
+          AppLogo
+        }
     };
 </script>

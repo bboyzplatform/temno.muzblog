@@ -1,6 +1,12 @@
 # temnomusic-pwa-news
 
-> y
+> Nuxt PWA module is a collection of smaller modules that are designed to magically work out of the box together. These modules includes:
+https://scotch.io/tutorials/build-a-progressive-web-application-with-nuxtjs#getting-started
+Workbox - Registers a service worker for offline caching.
+Manifest - Automatically generate manifest.json file.
+Meta - Automatically adds SEO friendly meta data with manifest integration.
+Icon - Automatically generates app icons with different sizes.
+Onesignal - Free background push notifications using onesignal.
 
 ## Build Setup
 
